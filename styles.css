@@ -1,2 +1,23 @@
-
-/* Your CSS Code here. */
+       body {
+            font-family: Arial, sans-serif;
+        }
+        .size-chart {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        .size-chart th, .size-chart td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        thead th {
+            background-color: #a94442;
+            color: white;
+        }
+        tbody tr:nth-child(odd) {
+            background-color: #d98880;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #d5d5d5;
+        }
